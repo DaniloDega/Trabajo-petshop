@@ -1,0 +1,68 @@
+.ofertas {
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+.español {
+    position: relative;
+    left: 600px;
+}
+
+.arg {
+
+}
+.navbar {
+    background-color: #F0A83E;
+    color: white;
+}
+.banner {
+    background-image: url("/IMG/bowl-and-pet-daities-on-green-background\ 1.png");
+height: 409px;
+}
+.titulo-banner {
+    background-color: white;
+    color: #3C2313;
+    height: 54px;
+    width: 365px;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.boton-banner {
+    background-color: #F0A83E;
+    color: white;
+}
+
+.imagenes {
+    display: flex;
+    justify-content: center;
+}
+
+.productos {
+    text-align: center;
+    color: #3C2313;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.derechos {
+    background-color: #222222;
+    color: white;
+    font-family: ;
+    font-style: normal;
+    text-align: center;
+    
+}
