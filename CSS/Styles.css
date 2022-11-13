@@ -1,68 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
 .ofertas {
-    background-color: black;
-    color: white;
-    height: 20px;
-}
-.español {
-    position: relative;
-    left: 600px;
+  background-color: black;
+  color: white;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 52px 0 90px;
 }
 
-.arg {
-
+.ofertas ul {
+  display: flex;
+  list-style-type: none;
 }
+
 .navbar {
-    background-color: #F0A83E;
-    color: white;
+  background-color: #f0a83e;
+  height: 80px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 0 40px 0 40px;
 }
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  list-style-type: none;
+}
+
 .banner {
-    background-image: url("/IMG/bowl-and-pet-daities-on-green-background\ 1.png");
-height: 409px;
+  background-image: url("/IMG/bowl-and-pet-daities-on-green-background\ 1.png");
+  height: 409px;
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  background-size: cover;
 }
+
+.banner div {
+  margin: 0 20px 0 20px;
+  text-align: center;
+}
+
 .titulo-banner {
-    background-color: white;
-    color: #3C2313;
-    height: 54px;
-    width: 365px;
-    font-size: 30px;
-    padding: 10px;
-    border-radius: 5px;
-    text-align: center;
+  background-color: white;
+  color: #3c2313;
+  height: 54px;
+  width: 365px;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 .boton-banner {
-    background-color: #F0A83E;
-    color: white;
+  background-color: #f0a83e;
+  color: white;
+  margin-top: 10px;
+  padding: 15px 23px 15px 23px;
+  height: 49px;
+  width: 141px;
 }
 
 .imagenes {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  /* text-align: center; */
+  color: #3c2313;
+  font-weight: 100;
+}
+
+.productos-destacados {
+  margin-top: 40px;
+  text-align: center;
 }
 
 .productos {
-    text-align: center;
-    color: #3C2313;
-
+  text-align: center;
+}
+.nombre {
+  color: #3c2313;
+  font-weight: 100;
+  text-align: center;
+  font-weight: 500;
 }
 
+.precio {
+  color: #f0a83e;
+}
 
+.contacto {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 
+.contacto h3 {
+  margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
-
+.datos p {
+  background-color: #3c2313;
+  color: white;
+  margin-bottom: 10px;
+  width: 340px;
+  height: 40px;
+  border-radius: 15px;
+  padding: 12px 0 0 15px;
+  font-size: small;
+}
 
 .derechos {
-    background-color: #222222;
-    color: white;
-    font-family: ;
-    font-style: normal;
-    text-align: center;
-    
+  background-color: #222222;
+  color: white;
+  font-family: ;
+  font-style: normal;
+  text-align: center;
+}
+
+.botones {
+  display: flex;
+  gap: 6px;
+  text-align: center;
+}
+
+.botones h4 {
+  background-color: #f0a83e;
+  height: 40px;
+  width: 90px;
+  border-radius: 15px;
+  padding: 10px 0 0 0;
+}
+
+.newslatter {
+  background-color: #f0a83e;
+  height: 60px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 47px 0 23px;
+}
+
+.news-elementos {
+  display: flex;
+  align-items: center;
+}
+
+.news-elementos img {
+  height: 21px;
+}
+
+.novedades {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.ingresa-correo {
+  background-color: white;
+  border-radius: 15px;
+  height: 40px;
+  width: 240px;
+  padding: 13px 0 0 5px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+.suscribirme {
+  background-color: #3c2313;
+  color: white;
+  height: 34px;
+  width: 70px;
+  font-size: 9px;
+  border-radius: 15px;
+  padding: 10px 0 0 10px;
+}
+
+.seccion-inferior {
+  background-color: #3c2313;
+  display: flex;
+  justify-content: space-between;
+  height: 284px;
+}
+
+.cont1 {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.nose1 {
+  margin-left: 30px;
+  color: white;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.nose1 p {
+  font-size: 10px;
+  color: grey;
+}
+
+.logo-catdog {
+  margin-right: 100px;
+  margin-top: 130px;
+  height: 30px;
 }

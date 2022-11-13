@@ -1,133 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./CSS/Styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/Styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Pet shop</title>
-</head>
-<body>
-    <Header>
-        <div class="ofertas">
+  </head>
+  <body>
+    <header>
+      <div class="ofertas">
         <p>Grandes ofertas en comederos</p>
         <ul>
-            <li class="español">Español <img src="./IMG/flechita para abajo.png" alt="flechitaabajo"></li>
-            <li class="arg">Arg <img src="./IMG/flechita para abajo.png" alt="flechitaabajo"></li>
+          <li class="español">
+            Español
+            <img src="./IMG/flechita para abajo.png" alt="flechitaabajo" />
+          </li>
+          <li class="arg">
+            Arg <img src="./IMG/flechita para abajo.png" alt="flechitaabajo" />
+          </li>
         </ul>
+      </div>
+      <nav class="navbar">
+        <img src="./IMG/Logo 2.svg" alt="logo-catdog" />
+        <ul>
+          <li>
+            <img src="./IMG/patita chica.png" alt="patitachica" /> Categorias
+          </li>
+          <li><img src="./IMG/patita chica.png" alt="patitachica" /> Pets</li>
+          <li>
+            <img src="./IMG/patita chica.png" alt="patitachica" /> Nosotros
+          </li>
+          <li>
+            <img src="./IMG/patita chica.png" alt="patitachica" /> Contactanos
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="banner">
+        <div>
+          <h2 class="titulo-banner">¡Es un placer tenerte aqui!</h2>
+          <p>¡comederos en descuento!</p>
+          <p class="boton-banner">comederos</p>
         </div>
-        <nav class="navbar">
-            <img src="./IMG/Logo.png" alt="logo-catdog">
-            <ul>
-                <li> <img src="./IMG/patita chica.png" alt="patitachica"> Categorias</li>
-                <li> <img src="./IMG/patita chica.png" alt="patitachica"> Pets</li>
-                <li> <img src="./IMG/patita chica.png" alt="patitachica"> Nosotros</li>
-                <li> <img src="./IMG/patita chica.png" alt="patitachica"> Contactanos</li>
-            </ul>
-        </nav>
-    </Header>
-    <Main>
-        <section class="banner"> 
-            <h2 class="titulo-banner">
-                ¡Es un placer tenerte aqui!
-            </h2>
-            <p> ¡comederos en descuento!</p>
-            <p class="boton-banner"> comederos</p>
-        </section>
+      </section>
 
-        <section class="productos">
-            <img src="./IMG/pawprint 1.png" alt="">
-            <h1>
-                Productos destacados
-            </h1>
-            <p>Comederos - Accesorios - Comida</p>
+      <section class="container">
+        <div class="productos-destacados">
+          <img src="./IMG/pawprint 1.png" alt="" />
+          <h1>Productos destacados</h1>
+          <p>Comederos - Accesorios - Comida</p>
+        </div>
 
-            <div class="imagenes">
+        <div class="imagenes">
+          <div class="productos">
+            <img src="./IMG/churrasquito.png" alt="churrasquito" />
+            <p class="nombre">Juguete churrasquito</p>
+            <p class="precio">$150</p>
+          </div>
+          <div class="productos">
+            <img src="./IMG/comedero.png" alt="comedero" />
+            <p class="nombre">Comedero para perro</p>
+            <p class="precio">$250</p>
+          </div>
+          <div class="productos">
+            <img src="./IMG/Huesito.png" alt="Huesito" />
+            <p class="nombre">Jueguete Huesito</p>
+            <p class="precio">$650</p>
+          </div>
+        </div>
 
-                <div class="productos">
-                    <img src="./IMG/churrasquito.png" alt="churrasquito">
-                    <p> Juguete churrasquito</p>
-                    <p> $150</p>
-                </div>
-                <div class="productos">
-                    <img src="./IMG/comedero.png" alt="comedero">
-                    <p> Comedero para perro</p>
-                    <p> $250</p>
-                </div>
-                <div class="productos">
-                    <img src="./IMG/Huesito.png" alt="Huesito">
-                    <p> Jueguete Huesito</p>
-                    <p> $650</p>
-                </div>
-            </div>
+        <div class="contacto">
+          <h3>Contactanos</h3>
 
-            <h3>
-                Contactanos
-            </h3>
-            <div>
-                <p>
-                    Nombre y Apellido
-                </p>
+          <div class="datos">
+            <p>Nombre y Apellido</p>
+            <p>Ingresá tu correo electrónico</p>
+            <p>Teléfono</p>
+          </div>
+
+          <div class="botones">
+            <h4>Resetear</h4>
+            <h4>Enviar</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="newslatter">
+        <div class="news-elementos">
+          <img class="carta" src="./IMG/Carta.png" alt="" />
+          <p class="novedades">Suscribirse para mas novedades</p>
+        </div>
+
+        <div class="news-elementos">
+          <p class="ingresa-correo">Ingresa tu correo electrónico</p>
+          <p class="suscribirme">Suscribirme</p>
+        </div>
+      </section>
+
+      <section class="seccion-inferior">
+        <div>
+          <div class="cont1">
+            <img src="./IMG/ubicacion.png" alt="logo-ubicacion" />
+            <div class="nose1">
+              <h5>Localidad</h5>
+              <p>Calle - Provincia</p>
             </div>
-            <div>
-                <p>
-                    Ingresá tu correo electrónico
-                </p>
+          </div>
+
+          <div class="cont1">
+            <img src="./IMG/telefono.png" alt="logo-telefono" />
+            <div class="nose1">
+              <h5>Teléfono</h5>
+              <p>Numero de telefono</p>
             </div>
-            <div>
-                <p>
-                    Teléfono
-                </p>
+          </div>
+
+          <div class="cont1">
+            <img
+              src="./IMG/correo electronico.png"
+              alt="logo-correoelecrtronico"
+            />
+            <div class="nose1">
+              <h5>Correo electronico</h5>
+              <p>Direccion de correo</p>
             </div>
-            <h4>
-                Resetear
-            </h4>
-            <h4>
-                Enviar
-            </h4>
-        </section>
-    </Main>
-</body>
-<footer>
-<section>
-    <h4>
-        Suscribirse para mas novedades
-    </h4>
-    <p>
-        Ingresa tu correo electrónico
-    </p>
-    <p>
-        Suscribirme
-    </p>
-</section>
-<section>
-    <div>
-        <h5>
-            Localidad
-        </h5>
-        <p> Calle - Provincia</p>
-        <img src="./IMG/ubicacion.png" alt="logo-ubicacion">
-    </div>
-    <div>
-        <h5>
-            Teléfono
-        </h5>
-        <p> Numero de telefono</p>
-        <img src="./IMG/telefono.png" alt="logo-telefono">
-    </div>
-<div>
-    <h5>
-        Correo electronico
-    </h5>
-    <p> Direccion de correo</p>
-    <img src="./IMG/correo electronico.png" alt="logo-correoelecrtronico">
-</div>
-<img src="./IMG/Logo.png" alt="logo-catdog">
-</section>
-<section class="derechos">
-    <p>
-        Todos los derechos reservados front end
-    </p>
-</section>
-</footer>
+          </div>
+        </div>
+
+        <img class="logo-catdog" src="./IMG/Logo.svg" alt="logo-catdog" />
+      </section>
+
+      <section class="derechos">
+        <p>Todos los derechos reservados front end</p>
+      </section>
+    </footer>
+  </body>
 </html>
